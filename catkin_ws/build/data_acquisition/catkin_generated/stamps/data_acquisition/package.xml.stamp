@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>data_acquisition</name>
+  <version>0.0.0</version>
+
+  <description>
+  Data acquisition handling 
+  Created by: Vice, 09.04.2021
+  </description>
+  
+  <maintainer email="vice.roncevic@gmail.com">luxc</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>

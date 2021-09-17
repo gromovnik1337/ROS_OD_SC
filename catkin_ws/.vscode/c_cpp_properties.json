@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/luxc/ws_livox/devel/include/**",
+        "/home/luxc/MYNT-EYE-D-SDK/wrappers/ros/devel/include/**",
+        "/home/luxc/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/luxc/catkin_ws/src/air_cam_poi/include/**",
+        "/home/luxc/catkin_ws/src/air_loam/include/**",
+        "/home/luxc/catkin_ws/src/air_plc/include/**",
+        "/home/luxc/catkin_ws/src/lib_luxc/include/**",
+        "/home/luxc/catkin_ws/src/libluxc/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

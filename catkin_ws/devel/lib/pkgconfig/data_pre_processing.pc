@@ -1,0 +1,8 @@
+prefix=/home/luxc/vice_ROS_OD_SC/catkin_ws/devel
+
+Name: data_pre_processing
+Description: Description of data_pre_processing
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

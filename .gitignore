@@ -1,18 +1,9 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+/catkin_ws/src/data_pre_processing/data/
+/catkin_ws/devel/lib/data_acquisition/
+/data/
+/segmentation/SqueezeSegV3/development_luxc/data
+/segmentation/SqueezeSegV3/src/tasks/semantic/crop_map6.pcd
+/segmentation/SqueezeSegV3/src/tasks/semantic/crop_map9.pcd
+/segmentation/SqueezeSegV3/src/tasks/semantic/cropped_1.pcd
+/segmentation/SqueezeSegV3/src/tasks/semantic/cropped_big.pcd
+/segmentation/SqueezeSegV3/src/tasks/semantic/cropped_parking.pcd
