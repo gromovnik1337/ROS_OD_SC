@@ -1,8 +1,8 @@
-# Install script for directory: /home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition
+# Install script for directory: /home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/luxc/vice_ROS_OD_SC/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/luxc/ROS_OD_SC/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,32 +43,32 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisition.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luxc/ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisition.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/data_acquisition/cmake" TYPE FILE FILES
-    "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisitionConfig.cmake"
-    "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisitionConfig-version.cmake"
+    "/home/luxc/ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisitionConfig.cmake"
+    "/home/luxc/ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisitionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/data_acquisition" TYPE FILE FILES "/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/data_acquisition" TYPE FILE FILES "/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisition.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luxc/ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisition.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/data_acquisition/cmake" TYPE FILE FILES
-    "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisitionConfig.cmake"
-    "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisitionConfig-version.cmake"
+    "/home/luxc/ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisitionConfig.cmake"
+    "/home/luxc/ROS_OD_SC/catkin_ws/build/data_acquisition/catkin_generated/installspace/data_acquisitionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/data_acquisition" TYPE FILE FILES "/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/data_acquisition" TYPE FILE FILES "/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/package.xml")
 endif()
 

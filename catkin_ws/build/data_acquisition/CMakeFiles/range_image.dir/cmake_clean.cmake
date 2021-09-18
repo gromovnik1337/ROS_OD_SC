@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/data_acquisition/range_image"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/data_acquisition/range_image.pdb"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/data_acquisition/range_image"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/data_acquisition/range_image.pdb"
   "CMakeFiles/range_image.dir/src/range_image.cpp.o"
 )
 

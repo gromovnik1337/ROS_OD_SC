@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/spawn_turtle"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/spawn_turtle.pdb"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/spawn_turtle"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/spawn_turtle.pdb"
   "CMakeFiles/spawn_turtle.dir/src/spawn_turtle.cpp.o"
 )
 

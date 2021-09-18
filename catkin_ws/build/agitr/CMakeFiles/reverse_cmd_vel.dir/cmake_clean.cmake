@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/reverse_cmd_vel"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/reverse_cmd_vel.pdb"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/reverse_cmd_vel"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/reverse_cmd_vel.pdb"
   "CMakeFiles/reverse_cmd_vel.dir/src/reverse_cmd_vel.cpp.o"
 )
 

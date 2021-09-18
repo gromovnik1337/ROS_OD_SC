@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/include/pubvel.hpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/include/pubvel.hpp
 ros/ros.h
 -
 geometry_msgs/Twist.h
@@ -14,7 +14,7 @@ geometry_msgs/Twist.h
 stdlib.h
 -
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/src/pubvel.cpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/src/pubvel.cpp
 pubvel.hpp
 -
 

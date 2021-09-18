@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/src/spawn_turtle.cpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/src/spawn_turtle.cpp
 ros/ros.h
 -
 turtlesim/Spawn.h

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/src/range_image.cpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/src/range_image.cpp
 iostream
 -
 ros/ros.h

@@ -1,4 +1,4 @@
-prefix=/home/luxc/vice_ROS_OD_SC/catkin_ws/devel
+prefix=/home/luxc/ROS_OD_SC/catkin_ws/devel
 
 Name: agitr
 Description: Description of agitr

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/include/pcl_lidar_view.hpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/include/pcl_lidar_view.hpp
 ros/ros.h
 -
 sensor_msgs/PointCloud2.h
@@ -18,7 +18,7 @@ pcl_conversions/pcl_conversions.h
 pcl/visualization/pcl_visualizer.h
 -
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/src/pcl_lidar_view.cpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/src/pcl_lidar_view.cpp
 pcl_lidar_view.hpp
 -
 

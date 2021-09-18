@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/include/reverse_cmd_vel.hpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/include/reverse_cmd_vel.hpp
 ros/ros.h
 -
 geometry_msgs/Twist.h
 -
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/src/reverse_cmd_vel.cpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/src/reverse_cmd_vel.cpp
 reverse_cmd_vel.hpp
 -
 

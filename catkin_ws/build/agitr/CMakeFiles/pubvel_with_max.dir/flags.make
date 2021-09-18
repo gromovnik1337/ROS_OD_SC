@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"agitr\"
 
-CXX_INCLUDES = -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/include -I/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/src
+CXX_INCLUDES = -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/include -I/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/src
 
 CXX_FLAGS = 
 

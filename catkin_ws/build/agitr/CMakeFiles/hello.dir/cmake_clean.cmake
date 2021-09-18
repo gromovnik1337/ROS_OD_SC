@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/hello"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/hello.pdb"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/hello"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/hello.pdb"
   "CMakeFiles/hello.dir/src/hello.cpp.o"
 )
 

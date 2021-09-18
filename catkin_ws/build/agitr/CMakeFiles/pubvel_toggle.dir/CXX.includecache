@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/src/pubvel_toggle.cpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/src/pubvel_toggle.cpp
 ros/ros.h
 -
 std_srvs/Empty.h

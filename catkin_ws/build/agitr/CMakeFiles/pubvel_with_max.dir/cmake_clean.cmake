@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/pubvel_with_max"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/pubvel_with_max.pdb"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/pubvel_with_max"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/pubvel_with_max.pdb"
   "CMakeFiles/pubvel_with_max.dir/src/pubvel_with_max.cpp.o"
 )
 

@@ -67,14 +67,14 @@ set(data_pre_processing_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(data_pre_processing_SOURCE_PREFIX /home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_pre_processing)
-  set(data_pre_processing_DEVEL_PREFIX /home/luxc/vice_ROS_OD_SC/catkin_ws/devel)
+  set(data_pre_processing_SOURCE_PREFIX /home/luxc/ROS_OD_SC/catkin_ws/src/data_pre_processing)
+  set(data_pre_processing_DEVEL_PREFIX /home/luxc/ROS_OD_SC/catkin_ws/devel)
   set(data_pre_processing_INSTALL_PREFIX "")
   set(data_pre_processing_PREFIX ${data_pre_processing_DEVEL_PREFIX})
 else()
   set(data_pre_processing_SOURCE_PREFIX "")
   set(data_pre_processing_DEVEL_PREFIX "")
-  set(data_pre_processing_INSTALL_PREFIX /home/luxc/vice_ROS_OD_SC/catkin_ws/install)
+  set(data_pre_processing_INSTALL_PREFIX /home/luxc/ROS_OD_SC/catkin_ws/install)
   set(data_pre_processing_PREFIX ${data_pre_processing_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/luxc/vice_ROS_OD_SC/catkin_ws/install/lib;/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib;/home/luxc/ws_livox/devel/lib;/home/luxc/MYNT-EYE-D-SDK/wrappers/ros/devel/lib;/home/luxc/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/luxc/ROS_OD_SC/catkin_ws/install/lib;/home/luxc/ROS_OD_SC/catkin_ws/devel/lib;/home/luxc/ws_livox/devel/lib;/home/luxc/MYNT-EYE-D-SDK/wrappers/ros/devel/lib;/home/luxc/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

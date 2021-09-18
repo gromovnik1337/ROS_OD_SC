@@ -62,10 +62,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luxc/vice_ROS_OD_SC/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/luxc/ROS_OD_SC/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luxc/vice_ROS_OD_SC/catkin_ws/build
+CMAKE_BINARY_DIR = /home/luxc/ROS_OD_SC/catkin_ws/build
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -82,10 +82,10 @@ agitr/CMakeFiles/roscpp_generate_messages_lisp.dir/build: roscpp_generate_messag
 .PHONY : agitr/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 
 agitr/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	cd /home/luxc/vice_ROS_OD_SC/catkin_ws/build/agitr && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/luxc/ROS_OD_SC/catkin_ws/build/agitr && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : agitr/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 agitr/CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/luxc/vice_ROS_OD_SC/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luxc/vice_ROS_OD_SC/catkin_ws/src /home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr /home/luxc/vice_ROS_OD_SC/catkin_ws/build /home/luxc/vice_ROS_OD_SC/catkin_ws/build/agitr /home/luxc/vice_ROS_OD_SC/catkin_ws/build/agitr/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luxc/ROS_OD_SC/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luxc/ROS_OD_SC/catkin_ws/src /home/luxc/ROS_OD_SC/catkin_ws/src/agitr /home/luxc/ROS_OD_SC/catkin_ws/build /home/luxc/ROS_OD_SC/catkin_ws/build/agitr /home/luxc/ROS_OD_SC/catkin_ws/build/agitr/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : agitr/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

@@ -67,14 +67,14 @@ set(agitr_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(agitr_SOURCE_PREFIX /home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr)
-  set(agitr_DEVEL_PREFIX /home/luxc/vice_ROS_OD_SC/catkin_ws/devel)
+  set(agitr_SOURCE_PREFIX /home/luxc/ROS_OD_SC/catkin_ws/src/agitr)
+  set(agitr_DEVEL_PREFIX /home/luxc/ROS_OD_SC/catkin_ws/devel)
   set(agitr_INSTALL_PREFIX "")
   set(agitr_PREFIX ${agitr_DEVEL_PREFIX})
 else()
   set(agitr_SOURCE_PREFIX "")
   set(agitr_DEVEL_PREFIX "")
-  set(agitr_INSTALL_PREFIX /home/luxc/vice_ROS_OD_SC/catkin_ws/install)
+  set(agitr_INSTALL_PREFIX /home/luxc/ROS_OD_SC/catkin_ws/install)
   set(agitr_PREFIX ${agitr_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/luxc/vice_ROS_OD_SC/catkin_ws/install/lib;/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib;/home/luxc/ws_livox/devel/lib;/home/luxc/MYNT-EYE-D-SDK/wrappers/ros/devel/lib;/home/luxc/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/luxc/ROS_OD_SC/catkin_ws/install/lib;/home/luxc/ROS_OD_SC/catkin_ws/devel/lib;/home/luxc/ws_livox/devel/lib;/home/luxc/MYNT-EYE-D-SDK/wrappers/ros/devel/lib;/home/luxc/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

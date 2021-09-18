@@ -1,8 +1,8 @@
-# Install script for directory: /home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_pre_processing
+# Install script for directory: /home/luxc/ROS_OD_SC/catkin_ws/src/data_pre_processing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/luxc/vice_ROS_OD_SC/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/luxc/ROS_OD_SC/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,29 +43,29 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/data_pre_processing.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luxc/ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/data_pre_processing.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/data_pre_processing/cmake" TYPE FILE FILES
-    "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/data_pre_processingConfig.cmake"
-    "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/data_pre_processingConfig-version.cmake"
+    "/home/luxc/ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/data_pre_processingConfig.cmake"
+    "/home/luxc/ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/data_pre_processingConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/data_pre_processing" TYPE FILE FILES "/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_pre_processing/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/data_pre_processing" TYPE FILE FILES "/home/luxc/ROS_OD_SC/catkin_ws/src/data_pre_processing/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/data_pre_processing" TYPE PROGRAM FILES "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/simple_publisher.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/data_pre_processing" TYPE PROGRAM FILES "/home/luxc/ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/simple_publisher.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/data_pre_processing" TYPE PROGRAM FILES "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/simple_subscriber.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/data_pre_processing" TYPE PROGRAM FILES "/home/luxc/ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/simple_subscriber.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/data_pre_processing" TYPE PROGRAM FILES "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/clean_point_cloud.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/data_pre_processing" TYPE PROGRAM FILES "/home/luxc/ROS_OD_SC/catkin_ws/build/data_pre_processing/catkin_generated/installspace/clean_point_cloud.py")
 endif()
 

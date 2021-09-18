@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/luxc/vice_ROS_OD_SC/catkin_ws/build'
+export PWD='/home/luxc/ROS_OD_SC/catkin_ws/build'

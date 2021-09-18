@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/subpose"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/subpose.pdb"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/subpose"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/subpose.pdb"
   "CMakeFiles/subpose.dir/src/subpose.cpp.o"
 )
 

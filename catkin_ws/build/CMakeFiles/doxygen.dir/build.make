@@ -62,10 +62,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luxc/vice_ROS_OD_SC/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/luxc/ROS_OD_SC/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luxc/vice_ROS_OD_SC/catkin_ws/build
+CMAKE_BINARY_DIR = /home/luxc/ROS_OD_SC/catkin_ws/build
 
 # Utility rule file for doxygen.
 
@@ -86,6 +86,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/luxc/vice_ROS_OD_SC/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luxc/vice_ROS_OD_SC/catkin_ws/src /home/luxc/vice_ROS_OD_SC/catkin_ws/src /home/luxc/vice_ROS_OD_SC/catkin_ws/build /home/luxc/vice_ROS_OD_SC/catkin_ws/build /home/luxc/vice_ROS_OD_SC/catkin_ws/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luxc/ROS_OD_SC/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luxc/ROS_OD_SC/catkin_ws/src /home/luxc/ROS_OD_SC/catkin_ws/src /home/luxc/ROS_OD_SC/catkin_ws/build /home/luxc/ROS_OD_SC/catkin_ws/build /home/luxc/ROS_OD_SC/catkin_ws/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

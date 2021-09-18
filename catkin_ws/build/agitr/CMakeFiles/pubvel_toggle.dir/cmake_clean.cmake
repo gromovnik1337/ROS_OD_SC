@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/pubvel_toggle"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/pubvel_toggle.pdb"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/pubvel_toggle"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/pubvel_toggle.pdb"
   "CMakeFiles/pubvel_toggle.dir/src/pubvel_toggle.cpp.o"
 )
 

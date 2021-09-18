@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/include/acquisition.hpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/include/acquisition.hpp
 ros/ros.h
 -
 sensor_msgs/PointCloud2.h
@@ -16,7 +16,7 @@ pcl/point_cloud.h
 pcl_conversions/pcl_conversions.h
 -
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/src/acquisition.cpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/src/acquisition.cpp
 acquisition.hpp
 -
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/src/pubvel_with_max.cpp" "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/agitr/CMakeFiles/pubvel_with_max.dir/src/pubvel_with_max.cpp.o"
+  "/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/src/pubvel_with_max.cpp" "/home/luxc/ROS_OD_SC/catkin_ws/build/agitr/CMakeFiles/pubvel_with_max.dir/src/pubvel_with_max.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/include"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/src"
+  "/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/include"
+  "/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/src"
   )
 
 # Targets to which this target links.

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/include/subpose.hpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/include/subpose.hpp
 ros/ros.h
 -
 turtlesim/Pose.h
@@ -14,7 +14,7 @@ turtlesim/Pose.h
 iomanip
 -
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/src/subpose.cpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/src/subpose.cpp
 subpose.hpp
 -
 

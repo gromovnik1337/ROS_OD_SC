@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/set_bg_color"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/devel/lib/agitr/set_bg_color.pdb"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/set_bg_color"
+  "/home/luxc/ROS_OD_SC/catkin_ws/devel/lib/agitr/set_bg_color.pdb"
   "CMakeFiles/set_bg_color.dir/src/set_bg_color.cpp.o"
 )
 

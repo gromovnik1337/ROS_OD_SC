@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luxc/vice_ROS_OD_SC/catkin_ws/src/agitr/src/pubvel_with_max.cpp
+/home/luxc/ROS_OD_SC/catkin_ws/src/agitr/src/pubvel_with_max.cpp
 ros/ros.h
 -
 geometry_msgs/Twist.h

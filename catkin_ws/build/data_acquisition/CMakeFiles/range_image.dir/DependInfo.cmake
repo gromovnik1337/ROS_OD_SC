@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/src/range_image.cpp" "/home/luxc/vice_ROS_OD_SC/catkin_ws/build/data_acquisition/CMakeFiles/range_image.dir/src/range_image.cpp.o"
+  "/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/src/range_image.cpp" "/home/luxc/ROS_OD_SC/catkin_ws/build/data_acquisition/CMakeFiles/range_image.dir/src/range_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -58,8 +58,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/eigen3"
   "/usr/include/ni"
   "/usr/include/openni2"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/include"
-  "/home/luxc/vice_ROS_OD_SC/catkin_ws/src/data_acquisition/src"
+  "/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/include"
+  "/home/luxc/ROS_OD_SC/catkin_ws/src/data_acquisition/src"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
