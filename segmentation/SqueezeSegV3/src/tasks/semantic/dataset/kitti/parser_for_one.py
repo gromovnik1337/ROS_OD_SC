@@ -153,19 +153,16 @@ class SemanticKitti(Dataset):
     # Make a tensor of the uncompressed data (with the max num points)
     unproj_n_points = scan.points.shape[0]
 
-    # TODO Remove
     unproj_xyz = torch.full((unproj_n_points, 3), -1.0, dtype=torch.float) # removed self.max_points
 
     print("Scan points: ", np.shape(scan.points)[0])
     unproj_xyz[:unproj_n_points] = torch.from_numpy(scan.points)
 
-    # TODO Remove
     unproj_range = torch.full([unproj_n_points], -1.0, dtype=torch.float) # removed self.max_points
 
     print("unproj_range: ", scan.unproj_range.shape[0])
     unproj_range[:unproj_n_points] = torch.from_numpy(scan.unproj_range)
 
-    #  TODO Remove
     unproj_remissions = torch.full([unproj_n_points], -1.0, dtype=torch.float) # removed self.max_points
 
     # Changed to accomodate for the fact that remissions are taken from Velodyne data and they do not exist in Livox
@@ -191,11 +188,9 @@ class SemanticKitti(Dataset):
     else:
       proj_labels = []
     
-    # TODO Remove
     proj_x = torch.full([unproj_n_points], -1, dtype=torch.long) # removed self.max_points
     proj_x[:unproj_n_points] = torch.from_numpy(scan.proj_x)
     
-    # TODO Remove
     proj_y = torch.full([unproj_n_points], -1, dtype=torch.long) # removed self.max_points
     proj_y[:unproj_n_points] = torch.from_numpy(scan.proj_y)
     

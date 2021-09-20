@@ -82,10 +82,10 @@ dataset:
   sensor:
     name: "HDL64"
     type: "spherical" # projective
-    fov_up: 20
+    fov_up: 5
     fov_down: -20 
     img_prop:
-      width: 2048
+      width: 1024
       height: 64
     img_means: #range_x,y,z,signal
       - 12.12

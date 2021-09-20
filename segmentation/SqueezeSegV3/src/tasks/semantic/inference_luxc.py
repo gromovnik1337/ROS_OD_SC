@@ -18,7 +18,7 @@ import open3d as o3d
 if __name__ == '__main__':
 
   # Livox scan
-  livox_raw_pcd = o3d.io.read_point_cloud("./cropped_parking.pcd", print_progress = True) # Load the point cloud
+  livox_raw_pcd = o3d.io.read_point_cloud("./luxc_data/cropped_210920_subsampled.pcd", print_progress = True) # Load the point cloud
   livox_scan = np.asarray(livox_raw_pcd.points) # Convert to numpy 
 
   # Get the location of the sample data, output folder and the trained model.

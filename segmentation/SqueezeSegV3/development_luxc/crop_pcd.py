@@ -23,5 +23,5 @@ def demoCropGeometry(pcd):
     opt = vis.get_render_option()
     opt.show_coordinate_frame = True
 
-livox_raw_pcd = o3d.io.read_point_cloud("./data/cropped_parking.pcd", print_progress = True) # Load the point cloud
+livox_raw_pcd = o3d.io.read_point_cloud("./data/cropped_210920_subsampled.pcd", print_progress = True) # Load the point cloud
 demoCropGeometry(livox_raw_pcd)        
